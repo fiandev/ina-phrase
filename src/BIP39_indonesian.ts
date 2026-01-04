@@ -2047,4 +2047,4 @@ export default [
   "zone",
   "zonk",
   "zulhas",
-];
+].sort();
