@@ -1,0 +1,10 @@
+{
+  "name": "indonesian-seed-phrase",
+  "version": "1.0.0",
+  "description": "indonesian seed phrase word list",
+  "main": "index.js",
+  "repository": "https://github.com/fiandev/indonesian-seed-phrase",
+  "author": "fiandev",
+  "license": "MIT",
+  "private": false
+}
