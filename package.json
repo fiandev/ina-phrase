@@ -1,5 +1,5 @@
 {
-  "name": "ina-phrase",
+  "name": "@fiandev/ina-phrase",
   "version": "1.0.0",
   "description": "indonesian seed phrase word list",
   "main": "dist/index.js",
