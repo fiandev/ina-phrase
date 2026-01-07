@@ -6,7 +6,7 @@ import IndonesianSeedPhrase from './lib/IndonesianSeedPhrase';
 const program = new Command();
 
 program
-  .name('indonesian-seed-phrase')
+  .name('ina-phrase')
   .description('CLI tool for Indonesian BIP39 seed phrases')
   .version('1.0.0');
 

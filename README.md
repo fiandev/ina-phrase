@@ -1,4 +1,4 @@
-# Indonesian Seed Phrase
+# @fiandev/ina-phrase
 
 A TypeScript library and CLI tool for generating Indonesian BIP39 seed phrases and deriving Bitcoin keys.
 
@@ -15,13 +15,13 @@ A TypeScript library and CLI tool for generating Indonesian BIP39 seed phrases a
 ### As a library
 
 ```bash
-npm install indonesian-seed-phrase
+npm install @fiandev/ina-phrase
 ```
 
 ### As a CLI tool (global install)
 
 ```bash
-npm install -g indonesian-seed-phrase
+npm install -g @fiandev/ina-phrase
 ```
 
 ## Usage
@@ -31,26 +31,26 @@ npm install -g indonesian-seed-phrase
 #### Generate a random seed phrase
 
 ```bash
-indonesian-seed-phrase generate <length>
+ina-phrase generate <length>
 ```
 
 Where `<length>` is either 12 or 24.
 
 **Example:**
 ```bash
-indonesian-seed-phrase generate 12
+ina-phrase generate 12
 # Output: masa gila kabel brutal watu halim desi sakral curah opor ebong bunda
 ```
 
 #### Get keys from a seed phrase
 
 ```bash
-indonesian-seed-phrase keys "<seed-phrase>"
+ina-phrase keys "<seed-phrase>"
 ```
 
 **Example:**
 ```bash
-indonesian-seed-phrase keys "masa gila kabel brutal watu halim desi sakral curah opor ebong bunda"
+ina-phrase keys "masa gila kabel brutal watu halim desi sakral curah opor ebong bunda"
 # Output:
 # {
 #   "privateKey": "85d6da48f237235a877f224d3b6c775d82dab8ccb117f2d35f3113ffd31348b6",
@@ -62,12 +62,12 @@ indonesian-seed-phrase keys "masa gila kabel brutal watu halim desi sakral curah
 #### Print QR codes for keys
 
 ```bash
-indonesian-seed-phrase print <private-key> <public-key> <address>
+ina-phrase print <private-key> <public-key> <address>
 ```
 
 **Example:**
 ```bash
-indonesian-seed-phrase print \
+ina-phrase print \
   "85d6da48f237235a877f224d3b6c775d82dab8ccb117f2d35f3113ffd31348b6" \
   "033c2103985493608123817693fe4f5c38e86ec979fe4d9b814369a6dc622d407e" \
   "1F61pasuA5urBzp4XHN6aW3X9pAaML11ZL"
@@ -77,7 +77,7 @@ indonesian-seed-phrase print \
 ### Library Usage
 
 ```typescript
-import IndonesianSeedPhrase from 'indonesian-seed-phrase';
+import IndonesianSeedPhrase from '@fiandev/ina-phrase';
 
 const isp = new IndonesianSeedPhrase();
 
