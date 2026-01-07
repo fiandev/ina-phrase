@@ -1,0 +1,1 @@
+export { default as IndonesianSeedPhrase } from './lib/IndonesianSeedPhrase';
